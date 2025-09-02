@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>E-commerce product</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<body>
+    <header class="bg-light">
+        <div class="container">
+             
+        </div>
+    </header>
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Our Products</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/product-1.jpg" class="card-img-top" alt="Virtual Reality Glasses">
+                    <div class="card-body">
+                        <h5 class="card-title">Virtual Reality Glasses</h5>
+                        <p class="card-text">$299.00</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Virtual Reality Glasses">
+                            <input type="hidden" name="price" value="299.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/new-product.jpg" class="card-img-top" alt="Smart Ring">
+                    <div class="card-body">
+                        <h5 class="card-title">Smart Ring</h5>
+                        <p class="card-text">$299.00</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Smart Ring">
+                            <input type="hidden" name="price" value="199.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <footer class="bg-dark text-light py-4">
+    </footer>
+</html>
